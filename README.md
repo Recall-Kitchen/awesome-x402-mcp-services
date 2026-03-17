@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [AI & Developer Tools](#ai--developer-tools)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### AI \& Developer Tools
+
+- [Arch Tools](https://archtools.dev) — 61 production AI tools (web scraping, crypto data, AI generation, code utilities, and more). Pay per-call with USDC via x402 on Base, Polygon, Avalanche, and Solana. [MCP Server](https://arch-tools-mcp.onrender.com/mcp) | [x402 Discovery](https://archtools.dev/.well-known/x402) | [OpenAPI Spec](https://archtools.dev/openapi.json)
 
 ### Search
 
