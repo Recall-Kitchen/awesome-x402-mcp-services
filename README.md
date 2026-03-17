@@ -15,6 +15,11 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [ATXP Web Search](https://search.mcp.atxp.ai) (`search.mcp.atxp.ai`) — Real-time web search MCP tool, paid via USDC on Base. Agent registers with `npx atxp agent register`, gets a wallet and token, calls the MCP server — each query is billed per-call via x402.
+
+### Agent Tools
+
+- [ATXP](https://github.com/atxp-dev/atxp) — Full agent identity + payment stack: USDC wallet on Base, `@atxp.email` inbox, phone, and 100+ x402-paid MCP tools (web search, image gen, LLM gateway, video, music, SMS). One command to register, no KYC.
 
 ## Developers
 
