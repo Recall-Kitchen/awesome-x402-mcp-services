@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Utility Tools](#utility-tools)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Utility Tools
+
+- [agentsvc.io](https://agentsvc.io) — 20 pay-per-call utility tools for AI agents via x402 + MCP. Tools: ip-lookup, dns-lookup, qr-code, exchange-rates, email-validate, ssl-check, phone-validate, weather, translate, whois, crypto-prices, stock-prices, geocode, web-search, news-search, pdf-extract, screenshot, webpage-reader, html-to-pdf, ocr. $0.001–$0.008 USDC per call on Base Mainnet. Auto-discovery via `/.well-known/agent-services.json`. MCP server: `agentsvc.io/mcp-server.mjs`.
 
 ## Developers
 
