@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [API Factory x402](https://github.com/Br0ski777/x402-agent-tools) - 100 x402 MCP servers for AI agents. SSE transport. Crypto, B2B, SEO, security, utilities. npm: x402-agent-tools (103 tools).
 
 ## Developers
 
