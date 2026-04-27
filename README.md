@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Social Media](#social-media)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Social Media
+
+- [Social Intel](https://socialintel.dev) - Instagram influencer search MCP server. Search by niche, country, demographics, follower count → returns usernames, bios, public business emails. Single-profile lookup at $0.01; full search $0.50–$1.30. USDC on Base, Solana, Polygon, Arbitrum.
 
 ## Developers
 
