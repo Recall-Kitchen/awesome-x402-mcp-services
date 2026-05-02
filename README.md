@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Agent Payment & Marketplace
+
+- [Voidly Pay](https://voidly.ai/pay) - x402 facilitator + agent payment rail (transfers, escrow, streams, subscriptions, batch payouts) with a marketplace of 17 paid endpoints. 42 MCP tools via `@voidly/pay-mcp`. Free 10-credit faucet, USDC settlement on Base.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
