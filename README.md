@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Blockchain Analytics
+
+- [OpenPulsechain](https://www.openpulsechain.com/x402) — PulseChain blockchain analytics with 28 x402-paid MCP tools: token safety scores, opportunity signals, whale alerts, pair analytics, deployer reputation, AML funding tree. 5,900+ tokens. $0.001–$0.03 USDC on Base. [npm](https://www.npmjs.com/package/@openpulsechain/mcp-server) | [Smithery](https://smithery.ai/server/@openpulsechain/mcp-server)
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
