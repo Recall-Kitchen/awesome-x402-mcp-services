@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Agent Commerce / Paid Tool Discovery
+
+- [Pyrimid](https://pyrimid.ai) - Agent-commerce infrastructure for discovering paid MCP/API products, returning x402 payment requirements, and routing Base USDC payments with affiliate splits. MCP endpoint: `https://pyrimid.ai/api/mcp`; catalog: `https://pyrimid.ai/api/v1/catalog`; discovery card: `https://pyrimid.ai/.well-known/mcp.json`.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
