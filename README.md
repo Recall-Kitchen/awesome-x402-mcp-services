@@ -19,7 +19,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Agent Safety & Intelligence
 
-- [AgentIAM (Achilles EP)](https://achillesalpha.com) offers 18 x402-payable endpoints for autonomous agent identity, safety, and intelligence: execution integrity (NoLeak), state verification (MemGuard), risk scoring (RiskOracle), sandboxed exec (SecureExec), full orchestration (FlowCore), code audit, validate, research, DELPHI intelligence + knowledge graph, real-time signals. MCP discovery at [/.well-known/mcp.json](https://achillesalpha.com/.well-known/mcp.json); registered as `io.github.achilliesbot/ep-agentiam` on the [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=agentiam). $0.001–$0.05 USDC/call on Base.
+- [AgentIAM (Achilles EP)](https://achillesalpha.com) offers 18 x402-payable endpoints for autonomous agent identity, safety, and intelligence: execution integrity (NoLeak), state verification (MemGuard), risk scoring (RiskOracle), sandboxed exec (SecureExec), full orchestration (FlowCore), code audit, validate, research, DELPHI intelligence + knowledge graph, real-time signals. MCP discovery at [/.well-known/mcp.json](https://achillesalpha.com/.well-known/mcp.json); published to the [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=agentiam) as `io.github.achilliesbot/agentiam-mcp` (stdio wrapper) and `io.github.achilliesbot/ep-agentiam` (hosted catalog). $0.001–$0.05 USDC/call on Base.
 
 ## Developers
 
