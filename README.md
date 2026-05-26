@@ -12,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ## Services
 
+### Finance
+
+- [YIELD INTELLIGENCE](https://github.com/thebrierfox/intuitek-ace) - Passive income analysis MCP server with live US Treasury rates, portfolio yield calculator, and AI income optimizer. $1 USDC/call on Base via x402. Open endpoint, no account required.
+
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
