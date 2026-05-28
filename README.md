@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Agent APIs (Multi-domain)](#agent-apis-multi-domain)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Agent APIs (Multi-domain)
+
+- [GoCreative AI](https://api.gocreativeai.com) - 145+ pay-per-call API tools for AI agents (social enrichment, OSINT, web scraping, image generation, document intelligence). MCP at `https://api.gocreativeai.com/mcp`, x402 USDC payments on Base, no accounts required. Free 5 calls/day per IP demo tier.
 
 ## Developers
 
