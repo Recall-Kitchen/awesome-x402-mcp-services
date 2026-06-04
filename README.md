@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Developer Tools](#developer-tools)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Developer Tools
+
+- [ApexScout Agent Listing Roast](https://apexscout.ai/agent-listing-roast) - $1 x402 route with MCP-visible tool metadata for critiquing paid agent/API listing copy, buyer-agent skip reasons, and stop-or-upgrade guidance.
 
 ## Developers
 
