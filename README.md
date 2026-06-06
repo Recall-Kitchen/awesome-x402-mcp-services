@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Identity & Trust](#identity--trust)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Identity & Trust
+
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native agent trust scoring: 4 free preflight tools score any Solana wallet (on-chain activity, transaction patterns, network age, recurring behavior); 4 paid tools return signed `twzrd.receipt.v5` trust tokens via x402 + USDC on Solana (<1s settlement). MCP endpoint: `https://intel.twzrd.xyz/mcp`. MCP Registry: `xyz.twzrd.intel/twzrd-agent-intel`.
 
 ## Developers
 
