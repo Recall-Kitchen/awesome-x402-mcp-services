@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [AI](#ai)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### AI
+
+- [GPT-5.5 x402 API Gateway](https://gpt55.558686.xyz/mcp/config) - MCP discovery surface for x402-paid GPT-5.5 chat, text tools, and utility endpoints over Base USDC. Evidence: [server.json](https://gpt55.558686.xyz/server.json) and [x402 discovery](https://gpt55.558686.xyz/.well-known/x402).
 
 ### Search
 
