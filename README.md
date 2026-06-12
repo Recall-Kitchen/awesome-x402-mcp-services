@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Crypto & DeFi Data](#crypto--defi-data)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Crypto & DeFi Data
+
+- [crypto-data-x402-mcp](https://github.com/MooneyLive/crypto-data-x402-mcp) offers live coin prices and DeFi yield pools (APY/TVL) as MCP tools — $0.002/call in USDC on Base, free sample tool, `npx -y github:MooneyLive/crypto-data-x402-mcp`.
 
 ## Developers
 
