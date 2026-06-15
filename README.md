@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [Superhighway](https://superhighway.walls.sh) - Web search, news, images, scrape, and research for AI agents. Pay per call ($0.001) via x402 USDC on Base, or run `npx -y superhighway-mcp` for the MCP server (web_search, news_search, image_search, scrape_page, research).
 
 ## Developers
 
