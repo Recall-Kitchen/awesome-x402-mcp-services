@@ -32,3 +32,4 @@ To add your commercial service to this curated list (no payment required for sub
 2. Open a pull request with your service added to the Services section in the format: `- [Service Name](https://link-to-service) - Brief description.`
 3. Provide evidence or details on how it uses x402 payments and MCP.
 4. Your PR will be reviewed for inclusion.
+- [GoldBean](https://github.com/wuzenghai616-lang/goldbean) - Pay-per-use MCP marketplace with 120+ endpoints. AI chat, OCR, translation, crypto prices, DeFi, weather, search. Pays via x402 (USDC on Base).
