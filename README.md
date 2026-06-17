@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Web Tools](#web-tools)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Web Tools
+
+- [Agent402](https://agent402.tools/mcp) offers 1,100+ pay-per-call web tools for AI agents — headless browser, live web search, PDF extract/merge/split, durable wallet-keyed memory, and ~970 deterministic utilities. USDC on Base (also Polygon, Arbitrum) or free via proof-of-work. Open-source and self-hostable. ([GitHub](https://github.com/MikeyPetrillo/Agent402))
 
 ## Developers
 
