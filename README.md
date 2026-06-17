@@ -15,7 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### AI
 
-- [GPT55 x402 Agent Tools](https://gpt55.558686.xyz/mcp/config) - MCP discovery surface for x402-paid OpenAI-compatible chat request shape, text tools, and utility endpoints over Base USDC. Evidence: [server.json](https://gpt55.558686.xyz/server.json) and [x402 discovery](https://gpt55.558686.xyz/.well-known/x402).
+- [GPT55 x402 Wallet Safety and Merchant Readiness](https://gpt55.558686.xyz/mcp/config) - MCP discovery surface for x402-paid OpenAI-compatible chat, wallet signing safety, prepay trust checks, and merchant-readiness tools over Base USDC. Evidence: [server.json](https://gpt55.558686.xyz/server.json), [x402 discovery](https://gpt55.558686.xyz/.well-known/x402), and [wallet safety examples](https://github.com/go165/gpt55-x402-gateway/tree/main/examples/wallet-signing-risk-kit).
 
 ### Search
 
