@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Intelligence](#intelligence)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Intelligence
+
+- [Crest Counterparty Intelligence](https://crestsystems.ai/intelligence) offers counterparty and credit scoring for x402 agents: check who your agent is about to pay (real service, relayer, treasury, or buyer), wallet risk, and a pre-action risk gate. MCP server at `https://data.crestsystems.ai/mcp` (tools: agent_preflight, agent_credit, check_counterparty, pm_counterparty, onchain_profile), backed by paid x402 endpoints (USDC on Base, no accounts).
 
 ### Search
 
