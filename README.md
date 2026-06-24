@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Lending
+
+- [Magpie](https://x402.magpie.capital) offers agent-native lending on Solana — borrow SOL against memecoin collateral, arm an in-vault take-profit/stop-loss on your own loan, and repay; pay-per-call via x402 in USDC or native SOL, fully non-custodial (you sign every tx). MCP server: `@magpieloans/magpie-mcp`. ([Discovery](https://x402.magpie.capital/.well-known/x402.json))
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
