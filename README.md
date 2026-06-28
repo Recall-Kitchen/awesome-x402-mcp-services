@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [AI and API Tools](#ai-and-api-tools)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### AI and API Tools
+
+- [GPT55 x402 Gateway](https://gpt55.558686.xyz/x402/service) - Remote MCP and OpenAI-compatible GPT-5.5 gateway with x402 Base USDC payments for chat completions, translation, wallet signing safety, buyer shortlist generation, and MCP integration. Evidence: [x402 discovery](https://gpt55.558686.xyz/.well-known/x402), [MCP server card](https://gpt55.558686.xyz/.well-known/mcp/server-card.json), [server.json](https://gpt55.558686.xyz/server.json), and [GitHub](https://github.com/go165/gpt55-x402-gateway).
 
 ## Developers
 
