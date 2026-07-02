@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Data](#data)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Data
+
+- [Z2V Data API](https://z2v-x402-seller.cryga.workers.dev/.well-known/mcp) - Live crypto prices, FX rates, current weather, Base gas price, and EVM address checksum as x402-paid MCP tools ($0.005 USDC per call on Base mainnet, no accounts). Free `tools/list` and discovery manifests; `tools/call` settles via x402.
 
 ### Search
 
