@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [x402-search-mcp](https://github.com/minhthai1995/x402-search-mcp) provides `web_search` (organic web results) and `read_url` (page → cleaned text) tools, settled per-call in USDC on Base. Caller pays with its own wallet; no account or API key.
 
 ## Developers
 
@@ -32,3 +33,4 @@ To add your commercial service to this curated list (no payment required for sub
 2. Open a pull request with your service added to the Services section in the format: `- [Service Name](https://link-to-service) - Brief description.`
 3. Provide evidence or details on how it uses x402 payments and MCP.
 4. Your PR will be reviewed for inclusion.
+
