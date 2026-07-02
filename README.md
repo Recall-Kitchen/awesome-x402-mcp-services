@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Token Safety & On-Chain Data](#token-safety--on-chain-data)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Token Safety & On-Chain Data
+
+- [true402](https://true402.dev) - Token rug check with real buy/sell honeypot simulation, address safety, deployer reputation, new pairs and whale swaps on Base — plus SEO/GEO audits and LLM inference. x402 USDC on Base, $0.001–$0.015 per call. MCP server: `npx @true402.dev/mcp-server` ([npm](https://www.npmjs.com/package/@true402.dev/mcp-server), [OpenAPI](https://true402.dev/openapi.json)).
 
 ## Developers
 
