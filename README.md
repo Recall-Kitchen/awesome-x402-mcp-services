@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Agent Commerce Trust](#agent-commerce-trust)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Agent Commerce Trust
+
+- [Revenue Dojo Agent Payment Receipt & Mandate Verifier](https://x402.167-172-95-184.nip.io) - x402-paid MCP gateway and trust/audit service for agent-commerce receipts, payment challenges, mandate readiness, and signed-call verification; exposes `POST /mcp/call` plus paid audit/receipt routes on Base mainnet with discovery at `/.well-known/x402` and `/openapi.json`.
 
 ### Search
 
