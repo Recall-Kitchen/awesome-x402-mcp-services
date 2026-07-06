@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Payment Verification / Trust
+
+- [Revenue Dojo Agent Payment Receipt and Mandate Verifier](https://x402.167-172-95-184.nip.io) - x402-paid MCP gateway and agent-commerce trust API for receipt verification, mandate checks, and x402 launch audits. Evidence: `POST /mcp/call`, `POST /receipt/verify`, `POST /mandate/verify`, and `GET /audit/x402` are x402-gated; discovery manifests are at `/.well-known/x402` and `/openapi.json`.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
