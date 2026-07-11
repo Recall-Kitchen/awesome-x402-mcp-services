@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [Tollbooth](https://agenttoll.dev) — 37 paid x402 MCP tools: OSINT feeds (SEC, FRED, GDELT, flights, quakes, air quality), prediction market scans (Polymarket, Kalshi), web intel (scrape, stack detection, lead scoring), and agent security (threat intel, supply chain IOCs). $0.01–$0.10/call on Base USDC.
 
 ## Developers
 
