@@ -19,7 +19,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Identity & Trust
 
-- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native agent trust scoring: 4 free preflight tools score any Solana wallet (on-chain activity, transaction patterns, network age, recurring behavior); 4 paid tools return signed `twzrd.receipt.v5` trust tokens via x402 + USDC on Solana (<1s settlement). MCP endpoint: `https://intel.twzrd.xyz/mcp`. MCP Registry: `xyz.twzrd.intel/twzrd-agent-intel`.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native agent trust scoring: 4 free preflight tools score any Solana wallet (on-chain activity, transaction patterns, network age, recurring behavior); 4 paid tools return signed `twzrd.receipt.V6` trust tokens via x402 + USDC on Solana (<1s settlement). MCP endpoint: `https://intel.twzrd.xyz/mcp`. MCP Registry: `xyz.twzrd.intel/twzrd-agent-intel`.
 
 ## Developers
 
