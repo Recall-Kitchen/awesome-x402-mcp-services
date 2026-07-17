@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [AI & Data](#ai--data)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### AI & Data
+
+- [GenTech Agent Kit (BlockRun MCP)](https://blockrun.ai) - 16 paid x402 MCP endpoints across 9 categories: token risk analysis, wallet analysis, market intelligence, gaming intelligence, DeFi yields, blockchain RPC, AI chat models, and media generation (image, video, music, speech). Pay-as-you-go via x402 on Base and Solana.
 
 ## Developers
 
