@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Business Data](#business-data)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Business Data
+
+- [Sirenic](https://api.sirenic.eu) - Official French & European company registry data: search, profiles, KYB files, sanctions screening, filed financials. 25 MCP tools at https://api.sirenic.eu/mcp, $0.001–$0.50 USDC per call via x402, no account required.
 
 ## Developers
 
