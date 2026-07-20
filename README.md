@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Trading
+
+- [Central Command](https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/mcp) — 39-endpoint crypto trading intelligence MCP (funding, liquidations, alpha, backtests, agent console). x402 pay-per-use on Base USDC or prepaid key. ([Docs](https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/x402-docs) | [Catalog](https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/x402-gateway/catalog))
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
