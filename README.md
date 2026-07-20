@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Verification](#verification)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Verification
+
+- [VirtualSMS](https://mcp.virtualsms.io) - SMS verification and OTP receiving for AI agents with real carrier numbers across 145+ countries and 2500+ services, pay per code in USDC via x402, no account or API key.
 
 ## Developers
 
