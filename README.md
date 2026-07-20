@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Due Diligence & Compliance
+
+- [AetherIntel](https://github.com/markoskarllos-netizen/aetherintel-marketplace) - ERC-8004 agent reputation audit (10 EVM chains), generic EVM wallet due-diligence, adversarial code verification with real execution, and statistical anomaly detection, paid via x402 on Base USDC. OFAC sanctions screening and text summarization tools are free, no account required.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
