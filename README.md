@@ -12,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ## Services
 
+### Agent reliability
+
+- [Vibes-Coded Agent Tools](https://glama.ai/mcp/servers/@doteyeso-ops/mcp-server-vibes-coded) — MCP over Solana USDC x402: state/idempotency/drift guards, day-pass, prepaid keys. Official registry `io.github.doteyeso-ops/mcp-server-vibes-coded`.
+
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
