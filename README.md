@@ -19,7 +19,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Web Tools
 
-- [Agent402](https://agent402.tools/mcp) offers 1,100+ pay-per-call web tools for AI agents — headless browser, live web search, PDF extract/merge/split, durable wallet-keyed memory, and ~970 deterministic utilities. USDC on Base (also Polygon, Arbitrum) or free via proof-of-work. Open-source and self-hostable. ([GitHub](https://github.com/MikeyPetrillo/Agent402))
+- [Agent402](https://agent402.tools/mcp) offers 500+ pay-per-call web tools for AI agents — headless browser, live web search, PDF extract/merge/split, durable wallet-keyed memory, and 200+ pure-CPU utilities. USDC on Base + 8 more chains, or USDG on Robinhood Chain (10 chains) or free via proof-of-work. Open-source and self-hostable. ([GitHub](https://github.com/MikeyPetrillo/Agent402))
 
 ## Developers
 
