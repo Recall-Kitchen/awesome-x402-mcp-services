@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [scrape402](https://x402.shizu.me) offers live web search ($0.012/query, no search-API account needed), plus 75 more x402-paid tools exposed as [MCP tool definitions](https://x402.shizu.me/.well-known/mcp-tools): an OpenAI-compatible LLM gateway, embeddings, a code sandbox, web scraping, and live market data.
 
 ## Developers
 
