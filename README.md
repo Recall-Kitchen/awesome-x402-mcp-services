@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### AI Inference
+
+- [BridgeNode MCP](https://bridgenode.cc/mcp) - x402-gated AI inference MCP server: chat completions + model listing with automatic USDC payments on Solana. No API keys, no accounts; pay per request. Remote streamable-http at bridgenode.cc/mcp or stdio via `npx @bridgenode/mcp`. [npm](https://www.npmjs.com/package/@bridgenode/mcp) | [GitHub](https://github.com/applefanaimail-blip/bridgenode-skill)
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
