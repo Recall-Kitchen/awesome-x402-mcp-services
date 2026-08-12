@@ -18,7 +18,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### AI Inference
 
-- [BridgeNode MCP](https://bridgenode.cc/mcp) - x402-gated AI inference MCP server: chat completions + model listing with automatic USDC payments on Solana. No API keys, no accounts; pay per request. Remote streamable-http at bridgenode.cc/mcp or stdio via `npx @bridgenode/mcp`. [npm](https://www.npmjs.com/package/@bridgenode/mcp) | [GitHub](https://github.com/applefanaimail-blip/bridgenode-skill)
+- [BridgeNode MCP](https://bridgenode.cc/mcp) - x402-gated AI inference MCP server: chat completions + model listing + price estimation with automatic USDC payments on Solana. No API keys, no accounts; pay per request from $0.002, gasless. Models: DeepSeek V4 Flash/Pro, Groq Llama 3.3 70B. Remote streamable-http at bridgenode.cc/mcp or stdio via `npx @bridgenode/mcp`. [npm](https://www.npmjs.com/package/@bridgenode/mcp) | [GitHub](https://github.com/applefanaimail-blip/bridgenode-skill)
 
 ## Developers
 
