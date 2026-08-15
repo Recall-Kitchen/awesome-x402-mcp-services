@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Market Intelligence](#market-intelligence)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Market Intelligence
+
+- [ChainHelix for Machines](https://mcp.chainhelix.io) - Nine-chain onchain market intelligence over MCP: live trading signals, whale flows, MEV and bot activity, price walls, congestion, correlations, plus an on-chain attestation service. Pay per tool call ($0.01-$0.25, no accounts): USDC on Base via x402 or USDT / USDC / USD1 / U on BNB Smart Chain via Binance b402. Free proof tools verify the signal record before paying.
 
 ## Developers
 
