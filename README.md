@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Games
+
+- [King of the Hill](https://kingofthehill.3labsio.workers.dev) - one crown, a rising price. `hill_status` is free; `hill_take` takes the crown for the current price and raises the next price 1.5x. Territory on the board equals your share of all money ever paid. Money paid is not returned.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
