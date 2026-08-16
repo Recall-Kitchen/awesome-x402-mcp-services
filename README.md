@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Governance & Safety](#governance--safety)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Governance & Safety
+
+- [Fieldproof Policy Gate](https://policy-gate.3labsio.workers.dev/mcp) - Decides whether an agent action is permitted before it happens. `policy_check` returns allow / require_approval / deny against a tiered default-deny policy (bring your own inline), with the matched rule and rationale so the verdict is auditable. `policy_example` and `policy_rules` are free tools, so an agent can evaluate the service inside its own client before spending anything. No model in the hot path: same input, same verdict. $0.005 USDC on Base, no account or API key.
 
 ### Search
 
