@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Market Data & Web Intelligence](#market-data--web-intelligence)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Market Data & Web Intelligence
+
+- [Agent Newsstand](https://api.agentnewsstand.com/mcp) - 15 pay-per-call MCP tools: tokenized-asset candles, EOD history, SEC filings, earnings calendars, US macro (BLS/EIA), FRED release calendar, one-call trading context, plus search, page reader, paywall unlock, screenshots, local data, and URL safety. $0.005-$0.03 USDC per tool call on Base via the Coinbase CDP facilitator; payment in the tool call's _meta (x402payment), settlement info returned in the result _meta. Bazaar discovery on every unpaid challenge. Free sample twins of every endpoint for schema inspection. No API keys, no signup.
 
 ## Developers
 
