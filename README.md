@@ -19,7 +19,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Web Tools
 
-- [Agent402](https://agent402.tools/mcp), the applied layer of Agentic Finance (AIFI), offers 500+ pay-per-call web tools for AI agents — headless browser, live web search, PDF extract/merge/split, durable wallet-keyed memory, and 200+ pure-CPU utilities. USDC on Base + 10 more chains, or USDG on Robinhood Chain (12 chains), or free via proof-of-work; every paid endpoint answers x402 and MPP (Machine Payments Protocol) on the same 402. Open-source and self-hostable. ([GitHub](https://github.com/MikeyPetrillo/Agent402))
+- [Agent402](https://agent402.tools/mcp) offers 500+ pay-per-call web tools for AI agents — headless browser, live web search, PDF extract/merge/split, durable wallet-keyed memory, and 200+ pure-CPU utilities. USDC on Base + 10 more chains, or USDG on Robinhood Chain (12 chains), or free via proof-of-work; every paid endpoint answers x402 and MPP (Machine Payments Protocol) on the same 402. Open-source and self-hostable. ([GitHub](https://github.com/MikeyPetrillo/Agent402)) ([Agentic finance](https://agent402.tools/agentic-finance))
 
 ## Developers
 
