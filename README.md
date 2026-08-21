@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Compliance / AML](#compliance--aml)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Compliance / AML
+
+- [OceanAlt](https://oceanalt.com/api/x402) offers AML/compliance screening for agent payments: a gateway decision (allow/review/decline) on whether a payment should clear, multi-hop taint tracing, and batch address screening — each with verifiable evidence, not a black-box score. Free address screening + MCP server (`npx -y oceanalt-aml-mcp`); paid tools via x402 (USDC on Base). Remote MCP endpoint: `https://oceanalt.com/api/mcp`.
 
 ### Search
 
