@@ -4,6 +4,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 ### Table of Contents
 
+- [Data and Verification](#data-and-verification)
 - [Search](#search)
 
 ### Helpful Links
@@ -11,6 +12,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 - [x402/MCP Developers](#developers)
 
 ## Services
+
+### Data and Verification
+
+- [DopamineDesk x402 Marketplace](https://github.com/jblaz6335/mcp-server-aidatamarketplace) - MCP access to live pay-per-call agent-readiness, vendor-risk, transaction-preflight, company, vehicle, market, and EVM data products settled in USDC on Base through x402 v2.
 
 ### Search
 
