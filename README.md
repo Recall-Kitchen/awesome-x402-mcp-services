@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Prediction Markets](#prediction-markets)
 
 ### Helpful Links
 
@@ -15,6 +16,11 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Prediction Markets
+
+- [Predge](https://github.com/predgeAI/whale-data-mcp) offers signed, outcome-verified trader-skill (edge) scores for Polymarket & Kalshi wallets — a 95% Wilson lower bound over resolved trades, ed25519-signed — paid per call over x402 on Base.
+
 
 ## Developers
 
