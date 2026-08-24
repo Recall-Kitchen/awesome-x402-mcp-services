@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Security / pre-interact
+
+- [54ch10](https://54ch10.uk) - Pre-interact risk briefs + whois/dns/tls/normalize-url for wallet agents. x402 micropay on Base; MCP `npx -y github:sachio222/54ch10-mcp`. Analytics-only.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
