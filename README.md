@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [Crawlier Studio](https://48e0cb905290ad.lhr.life) - Pay-per-call image and voice AI generation. MCP-compatible pay-per-call endpoints on Base USDC. Free /trial endpoint, no signup. x402 discovery at /.well-known/x402.json.
 
 ## Developers
 
