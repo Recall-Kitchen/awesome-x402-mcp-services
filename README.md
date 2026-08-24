@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Monitoring](#monitoring)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Monitoring
+
+- [Longwatch](https://longwatch.dev) - Remote MCP server for durable website, RSS, crypto price, and SEC filing watches with resumable cursors; paid tools use x402 USDC on Base, with a free demo and trial.
 
 ## Developers
 
