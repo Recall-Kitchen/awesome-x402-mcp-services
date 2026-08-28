@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [Payments](#payments)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### Payments
+
+- [Pathmint](https://pathmint.edge.report/mcp) — ping an x402 resource live vs ghost ($0.01 USDC on Base) before you pay; MCP tools return the paid HTTP URLs. Optional pay-clearance compile. `npx agentcash add https://pathmint.edge.report`
 
 ## Developers
 
