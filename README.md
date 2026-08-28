@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [Saymon RU Data API](https://payforapi.com/llms.txt) — Russian-language data APIs + LLM Chat (Claude, GPT, DeepSeek) via MCP. INN lookup, Cyrillic search, RU page→Markdown, Russian Post. MCP: https://payforapi.com/mcp (streamable-http).
 
 ## Developers
 
