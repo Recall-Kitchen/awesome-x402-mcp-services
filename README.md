@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Routing
+
+- [402Signal](https://402signal.com/mcp.json) - Fail-closed live-endpoint x402 router. POST /route, $0.01 USDC on Base, Solana, Algorand.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
