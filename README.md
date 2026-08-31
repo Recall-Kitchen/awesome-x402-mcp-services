@@ -16,6 +16,9 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### Data & Verification
+
+- [Truth Bear (GAUGE)](https://api.truthbear.co) - Verify official facts (FRED, USGS, SEC EDGAR, NOAA, EPA, 180+ signals) with Bitcoin-anchored proof via OpenTimestamps. x402 pay-per-call, free tools included. [MCP server](https://www.npmjs.com/package/mcp-gauge-x402) | [GitHub](https://github.com/CHANGCHINFU/mcp-gauge)
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
