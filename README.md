@@ -16,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+### DeFi & Trading
+
+- [RGX](https://rgx.tail817c3b.ts.net) offers Snap Router (task-to-tool selection over the merged x402 Bazaar + MCP Registry catalog, no LLM call) and Pricing-Truth (real tradeable depth vs headline TVL, multi-pool price corroboration, live honeypot check) for AI trading agents on Base/Ethereum/Arbitrum. `pip install rgx-mcp`.
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
