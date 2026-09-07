@@ -15,6 +15,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+- [Council of AI](https://councilof.ai/mcp) — Independent AI-behaviour measurement MCP. Free board and verify; paid evidence tools over x402 USDC on Base. Not a score or certificate.
 
 ## Developers
 
