@@ -5,6 +5,7 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Table of Contents
 
 - [Search](#search)
+- [DeFi](#defi)
 
 ### Helpful Links
 
@@ -15,6 +16,10 @@ Curated list of awesome commercial services that require x402 payments and use M
 ### Search
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
+
+### DeFi
+
+- [Base toolbox](https://basetoolbox.cartonpliant.workers.dev/mcp) — Uniswap v3 swap preflight, leftover allowances, tx explain, and transfer check on Base. Paid MCP tools via x402 USDC. Manifest: https://basetoolbox.cartonpliant.workers.dev/.well-known/mcp.json
 
 ## Developers
 
