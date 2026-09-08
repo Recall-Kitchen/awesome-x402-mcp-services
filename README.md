@@ -16,6 +16,11 @@ Curated list of awesome commercial services that require x402 payments and use M
 
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) offers search for product, food, and vehicle recalls.
 
+
+### Extraction
+
+- [Veriton HTML→JSON](https://seed-trek-trainers-ross.trycloudflare.com/mcp) metered HTML/URL→structured JSON over MCP + x402 (Base USDC). Free demo tool; paid `html_to_json` $0.02 and `fetch_to_json` $0.05. Docs: https://veriton-dev.github.io/veriton-micro-dev/api/
+
 ## Developers
 
 - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
