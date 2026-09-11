@@ -10,7 +10,6 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Business data](#business-data)
 * [Marketing](#marketing)
 * [Monitoring](#monitoring)
-* [Security](#security)
 * [Official records](#official-records)
 
 ### Helpful Links
@@ -40,9 +39,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 * [Longwatch](https://longwatch.dev) — durable watches on public pages, RSS, and SEC EDGAR filings, with resumable cursors. Hosted MCP at `https://longwatch.dev/mcp`. Paid tools return HTTP 402 (USDC on Base); free demo at `/demo`.
 
-### Security
-
-* [askzephy tools](https://audit.askzephy.com) — Solana/Anchor repo security scans: full static audit (16 rule families, file:line findings) and a $0.005 quick go/no-go verdict (SAFE / NEEDS_REVIEW / DO_NOT_INTERACT) plus Google News topic feeds. Hosted MCP at `https://audit.askzephy.com/mcp` (streamable HTTP, no key). Unpaid tool calls return HTTP 402 (USDC on Base, $0.005–$0.05); sign the payment and retry in the call `_meta`.
+* [askzephy news feed](https://audit.askzephy.com) — Google News coverage per topic query (brand, competitor, person, exact phrase): normalized rows with title, article URL, publisher, publish time, snippet; 10 locales. Hosted MCP at `https://audit.askzephy.com/mcp` (streamable HTTP, no key). Unpaid `google_news_feed` calls return HTTP 402 (USDC on Base, $0.01); sign the payment and retry in the call `_meta`.
 
 ### Official records
 
