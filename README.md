@@ -7,6 +7,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Table of Contents
 
 * [Search](#search)
+* [News](#news)
 * [Business data](#business-data)
 * [Marketing](#marketing)
 * [Monitoring](#monitoring)
@@ -21,6 +22,10 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Search
 
 * [Recall Kitchen](https://recallkitchen.com/docs/#mcp) — product, food, and vehicle recall search. Hosted MCP, x402 USDC on Base, no account. [MCP](https://app.recallkitchen.com/mcp)
+
+### News
+
+* [Briefing Service](https://wholemind.tech/briefing/index.html) - hourly LLM-ranked news briefings (AI, frontier labs, markets, US and world news, sports) from ~100 feeds: lead, why-it-matters, key points and duplicates merged, as JSON or rendered e-ink pages. Hosted MCP at `https://briefing-service.wholemind.workers.dev/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free, `tools/call` returns the x402 challenge (USDC on Base, $0.005 per call) after a small free daily quota.
 
 ### Web access
 
