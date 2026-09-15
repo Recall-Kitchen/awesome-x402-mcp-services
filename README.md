@@ -64,6 +64,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
   * [Example Applications](https://github.com/xpaysh/awesome-x402?tab=readme-ov-file#-example-applications)
 * [xpaysh/awesome-mcp-monetization](https://github.com/xpaysh/awesome-mcp-monetization)
 * [xpaysh/awesome-agentic-economy](https://github.com/xpaysh/awesome-agentic-economy)
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ## Contributing
 
