@@ -33,6 +33,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Web access
 
 * [CyberWareX Agent Web-Access](https://web.cyberwarex.com) — live web pages for agents: JS-rendered fetch to markdown/text/html, CSS-selector extract, screenshot, PDF. Hosted MCP at `https://web.cyberwarex.com/mcp` (streamable HTTP, no key). Unpaid tool calls return the x402 invoice (USDC on Base, $0.002-0.005); pay and retry with `x_payment`.
+* [readr](https://readr.hatchagent.workers.dev) — Web-content extraction for agents: URL in, clean markdown/text out. $0.005 USDC per call on Base via x402; no account, no API key. An unpaid POST returns HTTP 402 with the x402 payment challenge.
 
 ### Business data
 
@@ -42,6 +43,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Marketing
 
+* [overlayr](https://overlayr.hatchagent.workers.dev) — TikTok-style caption rendering: caller supplies video_url (max 50MB/60s) + captions, gets a captioned MP4 back. $0.10 USDC per render on Base via x402; no account, no API key. An unpaid POST returns HTTP 402.
 * [Social Intel](https://socialintel.dev) — Instagram influencer search by niche, country, city, and follower count. Hosted MCP at `https://socialintel.dev/mcp`. Paid `search_leads` via x402; `demo=true` is free.
 
 ### Monitoring
