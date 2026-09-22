@@ -33,6 +33,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Web access
 
 * [CyberWareX Agent Web-Access](https://web.cyberwarex.com) — live web pages for agents: JS-rendered fetch to markdown/text/html, CSS-selector extract, screenshot, PDF. Hosted MCP at `https://web.cyberwarex.com/mcp` (streamable HTTP, no key). Unpaid tool calls return the x402 invoice (USDC on Base, $0.002-0.005); pay and retry with `x_payment`.
+* [Vend](https://extract.paypercall.dev) — web extract, web search, URL status and domain intelligence for agents: clean markdown from any URL, link and status checks, TLS expiry and content drift, WHOIS/DNS, geolocation. Hosted MCP at `https://extract.paypercall.dev/mcp` (streamable HTTP, no key); unpaid calls return HTTP 402 (settled in **Nano XNO** on nano:mainnet — no account, no issuer, feeless). Discovery at `https://extract.paypercall.dev/.well-known/x402`.
 
 ### Business data
 
