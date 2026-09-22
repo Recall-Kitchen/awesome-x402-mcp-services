@@ -50,7 +50,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Official records
 
-* [Agent Embassy](https://agent-embassy.fly.dev) — Pay-per-call verification for AI agents over x402: signed outcome receipts for purchases and live compute-market data, settled in USDC on Base and Arbitrum. Hosted MCP at `https://agent-embassy.fly.dev/mcp` (streamable HTTP, no key); unpaid tool calls return HTTP 402 (USDC on Base + Arbitrum, $0.15 verified checks, $1.00 recovery, $0.25 compute data).
+* [Agent Embassy](https://agent-embassy.fly.dev) — Agents pay for work and prove what happened. Hosted MCP at `https://agent-embassy.fly.dev/mcp`.
 
 * [Agent402 SEC Filings](https://agent402.tools/mcp/sec) — SEC EDGAR over MCP: company lookup, filings, full-text search, Form 4 insider trades, 13F holdings and XBRL financials, plus grounded filing, insider and fund reports. Hosted MCP at `https://agent402.tools/mcp/sec`; every tool is paid per call in USDC and an unpaid call answers a payment challenge.
 * [Truth Bear (GAUGE)](https://api.truthbear.co) — official-series records (FRED, USGS, SEC EDGAR, NOAA, EPA, and similar) with a source URL and a recomputable record hash. Hosted MCP at `https://api.truthbear.co/mcp`. Coverage tools are free; paid records go through an x402 challenge.
