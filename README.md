@@ -57,6 +57,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Data utilities
 
 * [Penniless Data Utilities](https://penniless-json-repair.sjaman.workers.dev) — nine deterministic AI-agent data and lookup utilities (JSON repair, YAML→JSON, cron next-run, text diff/extract, HTML→text, RDAP WHOIS, DNS-over-HTTPS, GitHub repo stats, email validation). Hosted MCP at `https://penniless-json-repair.sjaman.workers.dev/mcp` (streamable HTTP, no key); `tools/list` is free. Each tool is $0.001 USDC per call on Base via x402 v2; an unpaid `tools/call` returns a 402 payment-required error whose data carries the signed-payment requirements. Pay and retry with the payment in the call `_meta`. [Discovery](https://penniless-json-repair.sjaman.workers.dev/.well-known/agent.json)
+* [47620 Blockchain Data + MCP Trust](https://47620.xyz) — hosted MCP for AI agents across **Solana, Base and Polygon**: live network health, gas prices, trending tokens/DEX pairs and market overview, plus an **MCP Server Trust Check** that scores 0-100 whether an MCP server is safe to connect to (verdict + risky-capability and prompt-injection findings). Hosted MCP at `https://47620.xyz/mcp` (streamable HTTP, no key); unpaid tool calls return HTTP 402 (USDC on Base, Polygon or Solana, $0.002-$0.20). [Discovery](https://47620.xyz/.well-known/x402) [GitHub](https://github.com/fito311/solana-data-mcp)
 
 ## Developers
 
