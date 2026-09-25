@@ -32,6 +32,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Web access
 
+* [APEX Web](https://apexfaucet.xyz/explained/#agents) — web pages for agents from a real headless Chrome: one page rendered with JavaScript run ($0.009), up to 25 pages of a site in one call with robots.txt obeyed ($0.14), or up to 10 plain pages as clean text ($0.003). Hosted MCP at `https://apexfaucet.xyz/api/mcp/web`. Unpaid calls return the x402 terms (USDC on Arc, Base or Solana, or XNT on X1).
 * [CyberWareX Agent Web-Access](https://web.cyberwarex.com) — live web pages for agents: JS-rendered fetch to markdown/text/html, CSS-selector extract, screenshot, PDF. Hosted MCP at `https://web.cyberwarex.com/mcp` (streamable HTTP, no key). Unpaid tool calls return the x402 invoice (USDC on Base, $0.002-0.005); pay and retry with `x_payment`.
 * [Vend](https://extract.paypercall.dev) — paid web tools for agents: page-to-clean-text web extraction, web search, link checker, domain info, geoip, nano-info, YouTube transcripts. Hosted MCP at `https://extract.paypercall.dev/mcp` (streamable HTTP, no key). Unpaid tool calls return HTTP 402 settled in **Nano (XNO)** via x402 exact — instant, feeless, self-facilitated PAYMENT-SIGNATURE, no USDC/Base.
 
