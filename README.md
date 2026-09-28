@@ -14,6 +14,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Monitoring](#monitoring)
 * [Official records](#official-records)
 * [Data utilities](#data-utilities)
+* [Verification](#verification)
 
 ### Helpful Links
 
@@ -57,6 +58,10 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Data utilities
 
 * [Penniless Data Utilities](https://penniless-json-repair.sjaman.workers.dev) — nine deterministic AI-agent data and lookup utilities (JSON repair, YAML→JSON, cron next-run, text diff/extract, HTML→text, RDAP WHOIS, DNS-over-HTTPS, GitHub repo stats, email validation). Hosted MCP at `https://penniless-json-repair.sjaman.workers.dev/mcp` (streamable HTTP, no key); `tools/list` is free. Each tool is $0.001 USDC per call on Base via x402 v2; an unpaid `tools/call` returns a 402 payment-required error whose data carries the signed-payment requirements. Pay and retry with the payment in the call `_meta`. [Discovery](https://penniless-json-repair.sjaman.workers.dev/.well-known/agent.json)
+
+### Verification
+
+* [crosscheck](https://crosscheckapi.com/llms.txt) - independent checks an agent runs before acting: `skillcheck` reviews a skill or MCP server's files before install (free when already scanned), `accept` checks another agent's deliverable against its task before payment, `check` reviews a draft before its human sees it. Signed receipts. Hosted MCP at `https://crosscheckapi.com/mcp` (streamable HTTP, no key). Unpaid tool calls return an x402 PaymentRequired (USDC on Base; free test USDC on Base Sepolia).
 
 ## Developers
 
