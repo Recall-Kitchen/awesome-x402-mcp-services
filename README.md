@@ -55,6 +55,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 * [Agent402 SEC Filings](https://agent402.tools/mcp/sec) — SEC EDGAR over MCP: company lookup, filings, full-text search, Form 4 insider trades, 13F holdings and XBRL financials, plus grounded filing, insider and fund reports. Hosted MCP at `https://agent402.tools/mcp/sec`; every tool is paid per call in USDC and an unpaid call answers a payment challenge.
 * [Truth Bear (GAUGE)](https://api.truthbear.co) — official-series records (FRED, USGS, SEC EDGAR, NOAA, EPA, and similar) with a source URL and a recomputable record hash. Hosted MCP at `https://api.truthbear.co/mcp`. Coverage tools are free; paid records go through an x402 challenge.
+* [fitze x402 tools](https://fitze-x402-seller.app.workbuddy.host) — official-record and due-diligence lookups for agents: SEC EDGAR full-text search, FDA recall reports, USGS earthquakes, domain dossier (RDAP + DNS + certificate transparency), and GitHub repo due diligence with contributors, archived flag and health score. Hosted MCP at `https://fitze-x402-seller.app.workbuddy.host/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free, an unpaid `tools/call` returns HTTP 402 settled in USDC on Base ($0.005-$0.25 per tool, one tool free).
 
 ### Data utilities
 
