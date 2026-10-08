@@ -10,6 +10,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [News](#news)
 * [Web access](#web-access)
 * [Business data](#business-data)
+* [Content](#content)
 * [Marketing](#marketing)
 * [Monitoring](#monitoring)
 * [Official records](#official-records)
@@ -44,6 +45,10 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Saymon RU Data API](https://payforapi.com) — Russian company registry (EGRUL) and KYB dossiers, official Russian series (Central Bank rates, MOEX quotes), and Runet search. Hosted MCP at `https://payforapi.com/mcp`. Unpaid tool calls return an x402 payment error (USDC on Base, $0.005-$0.05); sign the payment and retry in the call `_meta`.
 * [Sirenic](https://api.sirenic.eu) — French and European company registry: search, profiles, KYB, sanctions, filed financials. Hosted MCP at `https://api.sirenic.eu/mcp`. Unpaid calls return HTTP 402 (USDC/EURC on Base).
 * [Vérif Entreprise FR](https://api-production-24833.up.railway.app) — French company verification (KYB) by SIREN from official open data (Annuaire des Entreprises, BODACC, ADEME): legal status, insolvency-procedure state, RGE certifications and an explained verdict with documented signal codes. Hosted MCP at `https://api-production-24833.up.railway.app/mcp` (streamable HTTP, no key); tools `verifier_entreprise` ($0.01), `rechercher_entreprise` ($0.002), `qualifications_rge` ($0.01). Unpaid tool calls return an MCP payment error with x402 accepts (USDC on Base or Solana); failed lookups are never charged.
+
+### Content
+
+* [Penny Press](https://www.pennypress.org) — essays on freedom, economics and philosophy: free for humans to read, pay-per-read for AI agents. Hosted MCP at `https://www.pennypress.org/mcp` (streamable HTTP, no key). Unpaid tool calls return HTTP 402 (USDC on Base, $0.01–$0.05 per essay); sign the payment and retry.
 
 ### Marketing
 
