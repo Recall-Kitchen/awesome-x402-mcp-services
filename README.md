@@ -15,6 +15,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Monitoring](#monitoring)
 * [Official records](#official-records)
 * [Data utilities](#data-utilities)
+* [Email](#email)
 * [Verification](#verification)
 
 ### Helpful Links
@@ -69,6 +70,10 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Data utilities
 
 * [Penniless Data Utilities](https://penniless-json-repair.sjaman.workers.dev) — nine deterministic AI-agent data and lookup utilities (JSON repair, YAML→JSON, cron next-run, text diff/extract, HTML→text, RDAP WHOIS, DNS-over-HTTPS, GitHub repo stats, email validation). Hosted MCP at `https://penniless-json-repair.sjaman.workers.dev/mcp` (streamable HTTP, no key); `tools/list` is free. Each tool is $0.001 USDC per call on Base via x402 v2; an unpaid `tools/call` returns a 402 payment-required error whose data carries the signed-payment requirements. Pay and retry with the payment in the call `_meta`. [Discovery](https://penniless-json-repair.sjaman.workers.dev/.well-known/agent.json)
+
+### Email
+
+* [agmail](https://agmail.shveik.dev) — receive-only email inboxes for agents, rented by the hour: pick an address, wait for a message, get the code or link extracted. Hosted MCP at `https://agmail.shveik.dev/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free. Unpaid `create_inbox` calls return an x402 payment error (stablecoins on Base, Polygon or Solana, MPP on Base); sign the payment and retry in the call `_meta`.
 
 ### Verification
 
