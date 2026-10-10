@@ -27,6 +27,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Search
 
 * [Recall Kitchen](https://recallkitchen.com/docs/#mcp) — product, food, and vehicle recall search. Hosted MCP, x402 USDC on Base, no account. [MCP](https://app.recallkitchen.com/mcp)
+* [Munition](https://munition.io/connect.md) — web search, find-similar, answers and page contents (Exa), scraping (Firecrawl), Google search, news, images and shopping (Serper), HTML to PDF and live flight search (Duffel), fixed price per call ($0.001–$0.05). Hosted MCP at `https://api.munition.io/mcp` (streamable HTTP); the remote MCP uses OAuth 2.1 with a one-click anonymous account (no signup, no API key) and a prepaid USDC balance with per-connection spend caps. The same services are sold per request with no account over x402 (USDC on Base) and MPP: [OpenAPI](https://api.munition.io/openapi.json).
 
 ### News
 
