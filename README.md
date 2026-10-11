@@ -81,6 +81,8 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [crosscheck](https://crosscheckapi.com/llms.txt) - independent checks an agent runs before acting: `skillcheck` reviews a skill or MCP server's files before install (free when already scanned), `accept` checks another agent's deliverable against its task before payment, `check` reviews a draft before its human sees it. Signed receipts. Hosted MCP at `https://crosscheckapi.com/mcp` (streamable HTTP, no key). Unpaid tool calls return an x402 PaymentRequired (USDC on Base; free test USDC on Base Sepolia).
 * [Settled](https://settled.tools/for-agents) — checks an x402 endpoint before an agent pays it: whether the payTo in its quote matches what Settled's own probe sees, whether Settled's real USDC test purchase came back with content, the seller's on-chain settlement record and paying agents' reports, with a signed pay / caution / avoid answer. Hosted MCP at `https://settled.tools/mcp` (streamable HTTP, no key). `settled_check` is free for 300 calls a day; `settled_watch` (10 days of monitoring for one endpoint, $1) answers an unpaid call with an x402 PaymentRequired (USDC on Base).
 
+* [KHOTEM](https://khotem.com) - neutral cryptographic witness: seal any sha256 into a public ledger ($0.05 via x402, USDC on Base), verify any stamp free. halo-record-compatible hosted witness (`POST /api/witness/anchor` -> Ed25519-signed receipt -> CORS-open readback at `/api/witness/v1/checkpoints`), daily Bitcoin (OTS) anchor. Hosted MCP at `https://khotem.com/mcp` (streamable HTTP, no key).
+
 ## Developers
 
 * [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
