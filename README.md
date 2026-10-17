@@ -35,6 +35,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Web access
 
+* [Agent Kiosk](https://agent-kiosk.vercel.app) — web page extraction to clean Markdown, social and academic search (HackerNews, Reddit, ArXiv, Wikipedia), domain/WHOIS and GitHub repository intelligence, and npm/PyPI package security audits. Hosted MCP at `https://agent-kiosk.vercel.app/mcp` (streamable HTTP, no key); unpaid tool calls return an x402 payment challenge (USDC on Base, $0.001–$0.10).
 * [agdata](https://agdata.shveik.dev) — web data for agents: any URL as clean Markdown, screenshots, web search, Google Maps and Amazon reviews, job listings, news, social posts and comments, YouTube transcripts. Hosted MCP at `https://agdata.shveik.dev/mcp` (streamable HTTP, no key). Unpaid tool calls return an x402 payment error (stablecoins on Base, Polygon or Solana, MPP on Base); sign the payment and retry in the call `_meta`. A scrape that fails is not charged.
 * [agproxy](https://agproxy.shveik.dev) — residential proxy traffic and a raw fetch for agents, with country targeting and sticky sessions. Hosted MCP at `https://agproxy.shveik.dev/mcp` (streamable HTTP, no key). Unpaid tool calls return an x402 payment error (stablecoins on Base or Polygon, MPP on Base); sign the payment and retry in the call `_meta`.
 * [APEX Web](https://apexfaucet.xyz/explained/#agents) — web pages for agents from a real headless Chrome: one page rendered with JavaScript run ($0.009), up to 25 pages of a site in one call with robots.txt obeyed ($0.14), or up to 10 plain pages as clean text ($0.003). Hosted MCP at `https://apexfaucet.xyz/api/mcp/web`. Unpaid calls return the x402 terms (USDC on Arc, Base or Solana, or XNT on X1).
@@ -108,5 +109,3 @@ Open a pull request that adds one bullet under the matching Services section:
 `* [Service Name](https://link-to-service) — Brief description.`
 
 Keep sections alphabetized by service name. In the PR body, include the MCP URL and how an unpaid call produces 402. We will probe those before merging.
-
-- **[Agent Kiosk](https://agent-kiosk.vercel.app)** ([GitHub](https://github.com/ralf9090/agent-kiosk)) - 19-in-1 Autonomous B2A Intelligence, Executable DeFi Swap Calldata (`defi_swap_quote`), AML/OFAC Compliance Screening (`compliance_check`), & Security Supermarket settled in Base USDC via x402 v2/v1 and Model Context Protocol (`https://agent-kiosk.vercel.app/mcp`).
