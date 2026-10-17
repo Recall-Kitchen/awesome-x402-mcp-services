@@ -108,3 +108,5 @@ Open a pull request that adds one bullet under the matching Services section:
 `* [Service Name](https://link-to-service) — Brief description.`
 
 Keep sections alphabetized by service name. In the PR body, include the MCP URL and how an unpaid call produces 402. We will probe those before merging.
+
+- **[Agent Kiosk](https://agent-kiosk.vercel.app)** ([GitHub](https://github.com/ralf9090/agent-kiosk)) - 19-in-1 Autonomous B2A Intelligence, Executable DeFi Swap Calldata (`defi_swap_quote`), AML/OFAC Compliance Screening (`compliance_check`), & Security Supermarket settled in Base USDC via x402 v2/v1 and Model Context Protocol (`https://agent-kiosk.vercel.app/mcp`).
