@@ -68,6 +68,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 ### Monitoring
 
 * [Longwatch](https://longwatch.dev) — durable watches on public pages, RSS, and SEC EDGAR filings, with resumable cursors. Hosted MCP at `https://longwatch.dev/mcp`. Paid tools return HTTP 402 (USDC on Base); free demo at `/demo`.
+* [agentread](https://github.com/RDW-Labz/agentread) — page reader and change detector: read a URL your own fetch failed on and get the text back ($0.02), or ask what changed on a page since the last check — the baseline is stored server-side, so it survives the agent's session ($0.01). Hosted MCP at `https://agentread.midi-thumb.workers.dev/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free, unpaid `tools/call` returns an x402 challenge (USDC on Base). Pages behind hard bot walls report `blocked` rather than returning fabricated content.
 
 ### Official records
 
