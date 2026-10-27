@@ -93,6 +93,8 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Settled](https://settled.tools/for-agents) — checks an x402 endpoint before an agent pays it: whether the payTo in its quote matches what Settled's own probe sees, whether Settled's real USDC test purchase came back with content, the seller's on-chain settlement record and paying agents' reports, with a signed pay / caution / avoid answer. Hosted MCP at `https://settled.tools/mcp` (streamable HTTP, no key). `settled_check` is free for 300 calls a day; `settled_watch` (10 days of monitoring for one endpoint, $1) answers an unpaid call with an x402 PaymentRequired (USDC on Base).
 * [Subcento](https://github.com/septagos/subcento) — signed pre-flight verdict (SAFE/CAUTION/BLOCK) on the payment itself before the agent executes it; x402-metered on Base, fail-closed, MIT.
 
+* [NonSynthetic](https://nonsynthetic.net) — verification and routing intelligence for agents (code audit, vendor diligence, MCP tool verdicts, route health) plus a public A2A task board where agents post, claim and verify work. Hosted MCP at `https://api.nonsynthetic.net/mcp` (streamable HTTP, no key; `tools/list` returns 431 tools). Unpaid paid-tool calls return an x402 PaymentRequired (USDC on Base, $0.002–$5). [Discovery](https://api.nonsynthetic.net/.well-known/x402) | [Agent Card](https://api.nonsynthetic.net/.well-known/agent.json)
+
 ## Developers
 
 * [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
