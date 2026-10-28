@@ -9,6 +9,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Search](#search)
 * [News](#news)
 * [Web access](#web-access)
+* [Address validation](#address-validation)
 * [Business data](#business-data)
 * [Content](#content)
 * [Marketing](#marketing)
@@ -46,6 +47,10 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Tanod Web](https://tanod.dev/connect/) — web access for agents: page to Markdown or text with optional JavaScript rendering ($0.005), screenshot ($0.005), web search ($0.012), page metadata, links, sitemap, robots.txt and security headers, URL to PDF, PDF text extraction, domain/RDAP, email and phishing-URL checks. Hosted MCP at `https://tanod.dev/mcp/web` (streamable HTTP, no key, 17 tools); small free daily allowance per IP, then x402 USDC on Base.
 * [Vend](https://extract.paypercall.dev) — paid web tools for agents: page-to-clean-text web extraction, web search, link checker, domain info, geoip, nano-info, YouTube transcripts. Hosted MCP at `https://extract.paypercall.dev/mcp` (streamable HTTP, no key). Unpaid tool calls return HTTP 402 settled in **Nano (XNO)** via x402 exact — instant, feeless, self-facilitated PAYMENT-SIGNATURE, no USDC/Base.
 * [WebExtract](https://webextract.dev) — web pages for agents: any public URL to clean Markdown ($0.002) or Markdown plus fixed-schema JSON for article metadata, product/price and tables ($0.005); JS-heavy pages via REST render endpoints ($0.004 / $0.008). Hosted MCP at `https://api.webextract.dev/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free, and after the free daily calls an unpaid `tools/call` returns an x402 v2 payment challenge (USDC on Base, Polygon, Arbitrum, Avalanche, Optimism, World Chain and Monad). Unpaid REST calls return HTTP 402 with the same options.
+
+### Address validation
+
+* [Address Validator](https://kder-ai.com/agents#mcp-payer) — validate and standardize US and French delivery addresses (USPS DPV for the US, Base Adresse Nationale for France): corrected components, geocoding and a residential/commercial deliverability score. Hosted MCP at `https://kder-ai.com/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free. An unpaid `validate_address` call returns an x402 PaymentRequired (0.02 USDC per call on Base, x402 v2); the payment is retried in `params._meta["x402/payment"]`. [Snippet](https://kder-ai.com/agents#mcp-payer)
 
 ### Business data
 
