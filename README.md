@@ -9,7 +9,6 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Search](#search)
 * [News](#news)
 * [Web access](#web-access)
-* [Address validation](#address-validation)
 * [Business data](#business-data)
 * [Content](#content)
 * [Marketing](#marketing)
@@ -45,10 +44,6 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Vend](https://extract.paypercall.dev) — paid web tools for agents: page-to-clean-text web extraction, web search, link checker, domain info, geoip, nano-info, YouTube transcripts. Hosted MCP at `https://extract.paypercall.dev/mcp` (streamable HTTP, no key). Unpaid tool calls return HTTP 402 settled in **Nano (XNO)** via x402 exact — instant, feeless, self-facilitated PAYMENT-SIGNATURE, no USDC/Base.
 * [Tanod Web](https://tanod.dev/connect/) — web access for agents: page to Markdown or text with optional JavaScript rendering ($0.005), screenshot ($0.005), web search ($0.012), page metadata, links, sitemap, robots.txt and security headers, URL to PDF, PDF text extraction, domain/RDAP, email and phishing-URL checks. Hosted MCP at `https://tanod.dev/mcp/web` (streamable HTTP, no key, 17 tools); small free daily allowance per IP, then x402 USDC on Base.
 
-### Address validation
-
-* [Address Validator](https://kder-ai.com/agents#mcp-payer) — validate and standardize US and French delivery addresses (USPS DPV for the US, Base Adresse Nationale for France): corrected components, geocoding and a residential/commercial deliverability score. Hosted MCP at `https://kder-ai.com/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free. An unpaid `validate_address` call returns an x402 PaymentRequired (0.02 USDC per call on Base, x402 v2); the payment is retried in `params._meta["x402/payment"]`. [Snippet](https://kder-ai.com/agents#mcp-payer)
-
 ### Business data
 
 * [AgentPay](https://agentpay.help) — Insurance lead and business-document analysis: classify an inbound insurance lead, extract structured fields from the form or email, and return a claims/lead summary. Hosted MCP at `https://agentpay.help/mcp` (streamable HTTP, no key); unpaid tool calls return HTTP 402 (USDC on Base, $0.005-$0.10). JSON in, JSON out.
@@ -78,6 +73,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Data utilities
 
+* [Address Validator](https://kder-ai.com/agents#mcp-payer) — validate and standardize US and French delivery addresses (USPS DPV for the US, Base Adresse Nationale for France): corrected components, geocoding and a residential/commercial deliverability score. Hosted MCP at `https://kder-ai.com/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free. An unpaid `validate_address` call returns an x402 PaymentRequired (0.02 USDC per call on Base, x402 v2); the payment is retried in `params._meta["x402/payment"]`.
 * [naxytra](https://www.naxytra.com/agents) — Deterministic pay-per-call data and developer utilities for agents: summarize, HTML→text, text chunking and entity extraction, JSON validation, DNS/zone lookup, plus EVM/x402 helpers (keccak256, EIP-55 address checks, ABI encode/decode, EIP-712 typed-data hashing, Merkle-proof verify, x402 challenge decode, and on-chain settlement-receipt verification). Hosted MCP at `https://xytara-mcp-executor.onrender.com/mcp` (streamable HTTP, no key); `tools/list` is free. Each paid tool is $0.01 USDC per call on Base via x402 v2 (`catalog` is free too); an unpaid `tools/call` returns a payment-required tool result carrying the signed-payment requirements. Pay and retry with the payment in the call `_meta` (or use `/mcp/http402` for an HTTP 402); settlement happens only after the call succeeds. [Discovery](https://www.naxytra.com/.well-known/agent-card.json)
 
 * [Penniless Data Utilities](https://penniless-json-repair.sjaman.workers.dev) — nine deterministic AI-agent data and lookup utilities (JSON repair, YAML→JSON, cron next-run, text diff/extract, HTML→text, RDAP WHOIS, DNS-over-HTTPS, GitHub repo stats, email validation). Hosted MCP at `https://penniless-json-repair.sjaman.workers.dev/mcp` (streamable HTTP, no key); `tools/list` is free. Each tool is $0.001 USDC per call on Base via x402 v2; an unpaid `tools/call` returns a 402 payment-required error whose data carries the signed-payment requirements. Pay and retry with the payment in the call `_meta`. [Discovery](https://penniless-json-repair.sjaman.workers.dev/.well-known/agent.json)
