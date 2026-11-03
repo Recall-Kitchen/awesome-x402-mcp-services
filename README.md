@@ -26,6 +26,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Search
 
+* [Keenable](https://docs.keenable.ai) — general web search and page fetch (clean markdown) for agents over Keenable's own index. Hosted MCP at `https://api.keenable.ai/mcp-public` (streamable HTTP, no key; tools `search_web_pages`, `fetch_page_content`); pay-per-request x402 routes `https://api.keenable.ai/v1/x402/search` and `/v1/x402/fetch` return 402 unpaid ($0.01 USDC on Base).
 * [Recall Kitchen](https://recallkitchen.com/docs/#mcp) — product, food, and vehicle recall search. Hosted MCP, x402 USDC on Base, no account. [MCP](https://app.recallkitchen.com/mcp)
 
 ### News
