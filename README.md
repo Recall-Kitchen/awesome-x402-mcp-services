@@ -127,3 +127,5 @@ Open a pull request that adds one bullet under the matching Services section:
 `* [Service Name](https://link-to-service) — Brief description.`
 
 Keep sections alphabetized by service name. In the PR body, include the MCP URL and how an unpaid call produces 402. We will probe those before merging.
+
+- **[NEXUS A2A & MCP Services](https://github.com/Lauty1982/nexus-a2a-services)** — Anti-bot residential web scraping + 14B LLM structured JSON extraction (`$0.03 USDC`) and Base L2 smart contract honeypot auditing (`$0.01 USDC`), supporting standard `x402` (`exact` / gasless EIP-3009 on Base), prepaid `X-API-Key` credits, and native Model Context Protocol (`MCP`) stdio tools.
