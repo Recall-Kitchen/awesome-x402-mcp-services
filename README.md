@@ -109,6 +109,8 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 * [Subcento](https://github.com/septagos/subcento) — signed pre-flight verdict (SAFE/CAUTION/BLOCK) on the payment itself before the agent executes it; x402-metered on Base, fail-closed, MIT.
 * [x402check](https://x402check.dev) — check before paying any x402 seller (is this API a scam/safe?): `ok` | `caution` | `avoid` plus live payTo, price, and history. Hosted MCP at `https://x402check.dev/mcp` (streamable HTTP, no key; registry `dev.x402check/mcp@0.1.4`). Tools: `preflight_check`, `deep_check`, `verify_payto`, `compare_tools`, `watch_tool`. Unpaid tool calls return an x402 challenge (USDC Exact on Base, $0.01 per URL; deep $0.05; `$5`/30d watch). npm `x402check-mcp@0.1.4` · `x402check-client@0.1.3`. ([OpenAPI](https://x402check.dev/openapi.json) | [GitHub](https://github.com/nwilliams005/x402check) | [llms.txt](https://x402check.dev/llms.txt))
 
+* [agent-fleet](https://agent-fleet-ppqpwu.camelai.app) — Iranian and Persian verification and data tools for agents: national code, bank card and Sheba (IBAN) checks, mobile number to operator and province, postal code, licence plate, passport MRZ check digits, Jalali and lunar Hijri dates, RTL text safety and half-space repair. Hosted MCP at `https://agent-fleet-ppqpwu.camelai.app/mcp` (streamable HTTP, no key); `initialize` and `tools/list` are free, an unpaid `tools/call` returns HTTP 402 settled in USDC on Solana or Base ($0.002-$0.02 per tool, three free calls a day per tool per caller, 59 of 76 tools free). Unpaid proof: `POST /mcp` with a `tools/call` returns 402.
+
 ## Developers
 
 * [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)
