@@ -140,3 +140,5 @@ Open a pull request that adds one bullet under the matching Services section:
 `* [Service Name](https://link-to-service) — Brief description.`
 
 Keep sections alphabetized by service name. In the PR body, include the MCP URL and how an unpaid call produces 402. We will probe those before merging.
+
+- [ArcanumFleet](https://arcanumfleet.com/x402) ([MCP](https://arcanumfleet.com/mcp), [npm](https://www.npmjs.com/package/arcanumfleet-mcp-server)) - 10-tool Streamable HTTP MCP server & x402 v2 Solana trading intelligence (pulse, rug-check audits, 10-node consensus votes, Jupiter quotes, tx simulator) paid per call in USDC.
