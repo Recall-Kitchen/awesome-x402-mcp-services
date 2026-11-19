@@ -26,6 +26,7 @@ This is not a directory of crypto trading bots, token screens, payment routers, 
 
 ### Search
 
+* [AutoTasker Hub](https://autotasker.highkingflower.com) — real China social trending data (Weibo, Douban, Zhihu, Bilibili) plus search and 24h digest, for AI agents. Hosted MCP at `https://autotasker.highkingflower.com/mcp` (streamable HTTP, no key; 84 tools; initialize and tools/list answer free). Pay-per-request x402 routes return 402 unpaid ($0.05-$0.50 USDC on Base, eip155:8453); honest settlement proof at `/api/x402/proof`.
 * [Keenable](https://docs.keenable.ai) — general web search and page fetch (clean markdown) for agents over Keenable's own index. Hosted MCP at `https://api.keenable.ai/mcp-public` (streamable HTTP, no key; tools `search_web_pages`, `fetch_page_content`); pay-per-request x402 routes `https://api.keenable.ai/v1/x402/search` and `/v1/x402/fetch` return 402 unpaid ($0.01 USDC on Base).
 * [Recall Kitchen](https://recallkitchen.com/docs/#mcp) — product, food, and vehicle recall search. Hosted MCP, x402 USDC on Base, no account. [MCP](https://app.recallkitchen.com/mcp)
 
